@@ -68,7 +68,3 @@ declare class SpinePlugin extends Phaser.Plugins.ScenePlugin
     add(x: number, y: number, key?: string, animationName?: string, loop?: boolean): SpineGameObject
     make(config: SpineGameObjectConfig, addToScene?: boolean): SpineGameObject
 }
-
-declare module 'phaser/plugins/spine/dist/SpinePlugin' {
-	export = SpinePlugin
-}
