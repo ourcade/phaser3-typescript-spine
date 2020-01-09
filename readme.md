@@ -32,6 +32,9 @@ npm run start
 
 You'll see Spine Boy in his idle animation. Press the `left` and `right` arrow keys to cycle through his other animations. 🎉
 
+<img width="798" alt="Spine Boy" src="https://user-images.githubusercontent.com/2236153/72027349-e1255180-323b-11ea-8805-172bb5348a3d.png">
+
+
 ## Project Structure
 
 ```
