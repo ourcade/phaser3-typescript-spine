@@ -1,3 +1,5 @@
+![parcel3-typescript-spine](https://user-images.githubusercontent.com/2236153/72027279-9e637980-323b-11ea-984e-7da548af5a83.png)
+
 # Phaser 3 + TypeScript + Spine
 > Example project for Spine animations in Phaser 3 with TypeScript plus SpinePlugin typing files! 🌟
 
