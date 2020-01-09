@@ -5,7 +5,7 @@ declare namespace Phaser.Loader
 	interface LoaderPlugin extends Phaser.Events.EventEmitter
 	{
 		spine(
-			key: string | Phaser.Types.Loader.FileTypes.JSONFileConfig | Phaser.Types.Loader.FileTypes.JSONFileConfig[],
+			key: string | Phaser.Loader.FileTypes.SpineFileConfig | Phaser.Loader.FileTypes.SpineFileConfig[],
 			jsonURL: string,
 			atlasURL: string | string[],
 			preMultipliedAlpha?: boolean,
