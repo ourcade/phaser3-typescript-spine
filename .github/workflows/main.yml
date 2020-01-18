@@ -20,6 +20,8 @@ jobs:
       
 #     - name: Build
 #       run: npm run build
+    - name: Set dist folder
+      run: git subtree push --prefix dist origin gh-pages
       
     - name: Github Pages Custom Deploy
       uses: sterlingwes/gh-pages-deploy-action@v1.1
