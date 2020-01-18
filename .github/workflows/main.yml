@@ -15,11 +15,11 @@ jobs:
     - name: Install Parcel
       run: npm install parcel-bundler
 
-    - name: Install Dependecies
-      run: npm install
+#     - name: Install Dependecies
+#       run: npm install
       
-    - name: Build
-      run: npm run build
+#     - name: Build
+#       run: npm run build
       
     - name: Github Pages Custom Deploy
       uses: sterlingwes/gh-pages-deploy-action@v1.1
