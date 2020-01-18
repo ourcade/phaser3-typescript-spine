@@ -9,6 +9,10 @@
 
 [You can find a guide explaining this project here.](https://blog.ourcade.co/posts/2020/phaser-3-parcel-typescript-spine/)
 
+## Demo
+
+https://ourcade.github.io/phaser3-typescript-spine/
+
 ## Prerequisites
 
 This example project uses the [phaser3-parcel-template](https://github.com/ourcade/phaser3-parcel-template) and requires [Parcel](https://parceljs.org/).
@@ -38,6 +42,7 @@ You'll see Spine Boy in his idle animation. Press the `left` and `right` arrow k
 
 <img width="798" alt="Spine Boy" src="https://user-images.githubusercontent.com/2236153/72027349-e1255180-323b-11ea-8805-172bb5348a3d.png">
 
+Demo: https://ourcade.github.io/phaser3-typescript-spine/
 
 ## Project Structure
 
