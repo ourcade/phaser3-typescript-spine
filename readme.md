@@ -54,16 +54,11 @@ You'll see Spine Boy in his idle animation. Press the `left` and `right` arrow k
     │   │   ├── SpineDemo.ts
 	│   ├── types
 	│   │   ├── globals.d.ts
-	│   │   ├── SpineFile.d.ts
-	│   │   ├── SpineGameObject.d.ts
-	│   │   ├── SpinePlugin.d.ts
     │   ├── index.html
     │   ├── main.ts
 ```
 
 The Spine Boy assets exported from Spine is in `public/assets/spine`. These files are loaded in the `preload()` method of `SpineDemo.ts`.
-
-The typing files that provide IntelliSense for VS Code is in `src/types`. These files were hand-created from Phaser v3.21.0. 
 
 The Phaser 3 SpinePlugin is loaded in `main.ts`.
 
