@@ -17,8 +17,10 @@ jobs:
 
     - name: Install Dependecies
       run: npm install
-#     - name: Build
-#       run: npm run build
+      
+    - name: Build
+      run: npm run build
+      
     - name: Github Pages Custom Deploy
       uses: sterlingwes/gh-pages-deploy-action@v1.1
       with:
@@ -26,7 +28,5 @@ jobs:
         access-token: ${{ secrets.GHP_TOKEN }}
         # The subdirectory that your build command outputs your site assets to.
         source-directory: dist
-        # The build command that should be run to generate your site.
-        build-command: npm run build
         # The branch expected by GitHub to have the static files needed for your site.
         deploy-branch: master
