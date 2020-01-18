@@ -26,5 +26,6 @@ jobs:
       with:
         # A personal access token needed to push your site after it has been built.
         access-token: ${{ secrets.GHP_TOKEN }}
+        build-command: npm run build
         # The subdirectory that your build command outputs your site assets to.
         source-directory: dist
