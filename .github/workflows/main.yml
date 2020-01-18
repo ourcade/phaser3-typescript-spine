@@ -28,5 +28,3 @@ jobs:
         access-token: ${{ secrets.GHP_TOKEN }}
         # The subdirectory that your build command outputs your site assets to.
         source-directory: dist
-        # The branch expected by GitHub to have the static files needed for your site.
-        deploy-branch: master
