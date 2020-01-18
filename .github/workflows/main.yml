@@ -15,17 +15,15 @@ jobs:
     - name: Install Parcel
       run: npm install parcel-bundler
 
-#     - name: Install Dependecies
-#       run: npm install
+    - name: Install Dependecies
+      run: npm install
       
-#     - name: Build
-#       run: npm run build
-      
-    - name: Github Pages Custom Deploy
-      uses: sterlingwes/gh-pages-deploy-action@v1.1
+    - name: Build
+      run: npm run build
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        # A personal access token needed to push your site after it has been built.
-        access-token: ${{ secrets.GHP_TOKEN }}
-        build-command: npm run build
-        # The subdirectory that your build command outputs your site assets to.
-        source-directory: dist
+        ACCESS_TOKEN: ${{ secrets.GHP_TOKEN }}
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: dist # The folder the action should deploy.
