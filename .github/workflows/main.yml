@@ -27,3 +27,4 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.GHP_TOKEN }}
         BRANCH: gh-pages # The branch the action should deploy to.
         FOLDER: dist # The folder the action should deploy.
+
