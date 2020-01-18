@@ -1,0 +1,32 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@master
+      with:
+        lfs: true
+    - name: Install Parcel
+      run: npm install -g parcel-bundler
+
+    - name: Install Dependecies
+      run: npm install
+#     - name: Build
+#       run: npm run build
+    - name: Github Pages Custom Deploy
+      uses: sterlingwes/gh-pages-deploy-action@v1.1
+      with:
+        # A personal access token needed to push your site after it has been built.
+        access-token: ${{ secrets.GHP_TOKEN }}
+        # The subdirectory that your build command outputs your site assets to.
+        source-directory: dist
+        # The build command that should be run to generate your site.
+        build-command: npm run build
+        # The branch expected by GitHub to have the static files needed for your site.
+        deploy-branch: master
