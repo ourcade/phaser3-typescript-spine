@@ -44,16 +44,16 @@ You'll see Spine Boy in his idle animation. Press the `left` and `right` arrow k
 ```
     ├── ...
     ├── public
-	│   ├── assets
-	│   │   ├── spine
-	│   │   │   ├── spineboy.atlas
-	│   │   │   ├── spineboy.json
-	│   │   │   ├── spineboy.png
+    │   ├── assets
+    │   │   ├── spine
+    │   │   │   ├── spineboy.atlas
+    │   │   │   ├── spineboy.json
+    │   │   │   ├── spineboy.png
     ├── src
     │   ├── scenes
     │   │   ├── SpineDemo.ts
-	│   ├── types
-	│   │   ├── globals.d.ts
+    │   ├── types
+    │   │   ├── globals.d.ts
     │   ├── index.html
     │   ├── main.ts
 ```
