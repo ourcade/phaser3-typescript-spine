@@ -2751,4 +2751,4 @@ var t=arguments[3];window.SpinePlugin=function(t){var e={};function n(i){if(e[i]
 },{"phaser":"g7IM"}],"ZCfc":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=n(require("phaser"));require("phaser/plugins/spine/dist/SpinePlugin");var i=n(require("./scenes/SpineDemo"));function n(e){return e&&e.__esModule?e:{default:e}}var r={type:e.default.AUTO,width:800,height:600,physics:{default:"arcade",arcade:{gravity:{y:200}}},scene:[i.default],plugins:{scene:[{key:"SpinePlugin",plugin:window.SpinePlugin,mapping:"spine"}]}},u=new e.default.Game(r);exports.default=u;
 },{"phaser":"g7IM","phaser/plugins/spine/dist/SpinePlugin":"h3zx","./scenes/SpineDemo":"n25Z"}]},{},["ZCfc"], null)
-//# sourceMappingURL=/main.0cce6e7f.js.map
+//# sourceMappingURL=main.0cce6e7f.js.map
