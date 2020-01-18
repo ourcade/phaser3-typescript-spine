@@ -13,7 +13,7 @@ jobs:
       with:
         lfs: true
     - name: Install Parcel
-      run: npm install -g parcel-bundler
+      run: npm install parcel-bundler
 
     - name: Install Dependecies
       run: npm install
