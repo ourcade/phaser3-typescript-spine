@@ -4,7 +4,7 @@
 	"description": "Example project for Spine animations in Phaser 3 with TypeScript plus SpinePlugin typing files!",
 	"scripts": {
 		"start": "parcel src/index.html -p 8000",
-		"build": "parcel build src/index.html --out-dir dist",
+		"build": "parcel build src/index.html --out-dir dist --public-url ./",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "supertommy",
