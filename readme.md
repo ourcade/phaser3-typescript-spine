@@ -5,6 +5,10 @@
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+## In-depth Guide
+
+[You can find a guide explaining this project here.](https://blog.ourcade.co/posts/2020/phaser-3-parcel-typescript-spine/)
+
 ## Prerequisites
 
 This example project uses the [phaser3-parcel-template](https://github.com/ourcade/phaser3-parcel-template) and requires [Parcel](https://parceljs.org/).
