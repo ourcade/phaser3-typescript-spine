@@ -23,7 +23,7 @@
 			"node_module/phaser/types"
 		],
 		"types": [
-			"Phaser"
+			"phaser"
 		]
 	},
 	"include": [
